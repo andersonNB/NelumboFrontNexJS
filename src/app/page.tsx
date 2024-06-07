@@ -1,4 +1,6 @@
+import Image from "next/image";
 import { HomePage } from "./pages/Home/HomePage";
+import wave from "../../public/wave.svg"
 
 export default function Home() {
   return (
@@ -26,6 +28,7 @@ export default function Home() {
         <h2>COMPRA A</h2>
         <h1 className="text-[25px]">CRÉDITO</h1>
       </div>
+      <Image src={wave} alt="custom wave" />
     </main>
   );
 }

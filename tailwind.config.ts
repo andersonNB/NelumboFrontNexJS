@@ -24,6 +24,9 @@ const config: Config = {
       },
       transform:{
         'custom-matrix': 'matrix(0.71, 0.71, -0.71, 0.71, 0, 0)',
+      },
+      textColor:{
+        'custom-button-text':'#FFD300 !important'
       }
     },
   },
